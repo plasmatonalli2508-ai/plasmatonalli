@@ -468,25 +468,26 @@
 
   <div id="hero-section">
     <div class="hero-grid">
-      <span class="mini-badge">Plasma Tonalli // Ecosistema Vivo</span>
-      <h1 class="reactive-title">Reestructuración & Transformación Integral</h1>
+      <span class="mini-badge">Plasma Tonalli // Santuarios de transformación</span>
+      <h1 class="reactive-title">Diseño y evolución para espacios, marcas y equipos</h1>
       <p class="reactive-desc">
-        No vendemos insumos aislados. Rediseñamos la personalidad física y digital de marcas, empresas y creadores mediante kits de evolución holística: UX/UI, Identidad Textil UV, Código Dinámico e IA.
+        Cada negocio, comercio o empresa tiene un alma propia. En Plasma Tonalli convertimos esa esencia en una presencia más auténtica, segura, elegante y poderosa.
+        Renovamos ambientes, reforzamos la identidad de marca y transformamos la experiencia de clientes y colaboradores para que cada espacio genere confianza, prestigio y crecimiento real.
       </p>
       <div class="hero-metrics">
-        <div class="metric">Kit 1<strong>Renacimiento</strong></div>
-        <div class="metric">Kit 2<strong>Hiperinterfaz</strong></div>
-        <div class="metric">Kit 3<strong>Evolución Total</strong></div>
+        <div class="metric">Santuario 1<strong>Espacios auténticos</strong></div>
+        <div class="metric">Santuario 2<strong>Festivo y memorable</strong></div>
+        <div class="metric">Santuario 3<strong>Comercial y transformador</strong></div>
       </div>
-      <button class="btn-explorar" onclick="entrarAlUniverso()">EXPLORAR KITS DE TRANSFORMACIÓN</button>
+      <button class="btn-explorar" onclick="entrarAlUniverso()">EXPLORAR SANTUARIOS</button>
     </div>
   </div>
 
   <div id="nodal-ui">
     <div id="lbl-tonalli" class="node-label" style="color: #ffb703; border: 2px solid #ffb703; font-size: 0.85rem;">NODO CENTRAL: TONALLI</div>
-    <div id="lbl-material" class="node-label" style="color: #00ffcc; border: 1px solid #00ffcc;" onclick="openNode('material')">1. Transformación Física</div>
-    <div id="lbl-pixel" class="node-label" style="color: #00e5ff; border: 1px solid #00e5ff;" onclick="openNode('pixel')">2. Hiperinterfaz Digital</div>
-    <div id="lbl-infinito" class="node-label" style="color: #ff007f; border: 1px solid #ff007f;" onclick="openNode('infinito')">3. Ecosistema de Marca</div>
+    <div id="lbl-material" class="node-label" style="color: #00ffcc; border: 1px solid #00ffcc;" onclick="openNode('material')">1. Santuario físico</div>
+    <div id="lbl-pixel" class="node-label" style="color: #00e5ff; border: 1px solid #00e5ff;" onclick="openNode('pixel')">2. Santuario festivo</div>
+    <div id="lbl-infinito" class="node-label" style="color: #ff007f; border: 1px solid #ff007f;" onclick="openNode('infinito')">3. Santuario comercial</div>
   </div>
 
   <div id="glass-panel" class="glass-panel">
@@ -601,63 +602,67 @@
       `)}`;
     }
 
-    // BASE DE DATOS ESTRUCTURADA POR KITS DE TRANSFORMACIÓN
     const NODES_DATA = {
       material: {
-        title: 'Transformación Física',
-        subtitle: 'IDENTIDAD IMPRESA, TEXTIL & EDICIÓN',
+        title: 'Santuario físico',
+        subtitle: 'AMBIENTES QUE INSPIRAN Y CONVIERTEN',
         color: '#00ffcc',
         freq: 639,
-        desc: 'Reestructuramos la presencia palpable de tu marca con indumentaria de autor reactiva UV y papelería táctil de alto impacto.',
+        desc: 'Transformamos espacios para que reflejen identidad, claridad y confianza. Diseñamos ambientes auténticos, elegantes y funcionales que elevan la experiencia del cliente y fortalecen la presencia de tu marca.',
         subnodes: [
           {
-            tag: 'KIT DE IDENTIDAD TEXTIL',
-            title: 'Uniformidad & Presencia de Autor',
-            desc: 'Colección textil corporativa con vinil reflectivo, tintas reactivas UV y corte de alta precisión.',
-            img: makePlaceholderSvg('KIT TEXTIL UV', '#00ffcc')
+            tag: 'KIT DE IMAGEN Y AMBIENTE',
+            title: 'Espacios con personalidad propia',
+            desc: 'Renovamos la energía visual de tu negocio con identidad, orden, brillo y una estética que genera seguridad, mayores ventas y mejor percepción de marca.',
+            img: makePlaceholderSvg('SANTUARIO FÍSICO', '#00ffcc')
           },
           {
-            tag: 'DOCUMENTACIÓN CENTRAL',
-            title: 'Dossier de Marca Plasma 2026',
-            desc: 'Estructura táctica y resumen gráfico del manifiesto de transformación física.',
-            pdf: './Plasma_Tonalli_2026.pdf',
-            type: 'pdf'
+            tag: 'IDENTIDAD CORPORATIVA',
+            title: 'Uniformes, souvenirs y detalle premium',
+            desc: 'Uniformes de calidad, tazas, termos, gorras, plumas, lonas y materiales promocionales diseñados para reforzar la imagen y crear impacto real con tus clientes.',
+            img: makePlaceholderSvg('UNIFORMES & DETALLES', '#00ffcc')
           }
         ]
       },
       pixel: {
-        title: 'Hiperinterfaz Digital',
-        subtitle: 'DESARROLLO WEB, UX/UI & IA',
+        title: 'Santuario festivo',
+        subtitle: 'EVENTOS, CELEBRACIONES Y EXPERIENCIAS MEMORABLES',
         color: '#00e5ff',
         freq: 528,
-        desc: 'Creamos plataformas vivas en la nube. Diseños UX/UI enfocados en conversión y enriquecidos con animaciones 3D/WebGL.',
+        desc: 'Creamos experiencias con carácter festivo, encantadoras y vibrantes, diseñadas para que cada momento se sienta especial, auténtico y digno de ser recordado.',
         subnodes: [
           {
-            tag: 'KIT REDISEÑO WEB COMPLETO',
-            title: 'Ecosistema Web 3D & UX/UI',
-            desc: 'Plataforma interactiva a medida, arquitectura de navegación clara e integración de microinteracciones.',
-            img: makePlaceholderSvg('KIT WEB & UX/UI', '#00e5ff')
+            tag: 'AMBIENTACIÓN ESPECIAL',
+            title: 'Eventos con identidad y brillo',
+            desc: 'Diseñamos celebraciones y momentos únicos con una estética que resalta la personalidad del espacio, de la marca y de la ocasión.',
+            img: makePlaceholderSvg('FESTIVO & EVENTOS', '#00e5ff')
           },
           {
-            tag: 'AUTOMATIZACIÓN & IA',
-            title: 'Agente Conversacional Local',
-            desc: 'Integración de modelos locales Python + Ollama para soporte dinámico e interacción inteligente.',
-            img: makePlaceholderSvg('IA CONVERSACIONAL', '#00e5ff')
+            tag: 'AGENDA TU CITA',
+            title: 'Atención directa y personalizada',
+            desc: 'También ofrecemos la posibilidad de agendar una cita para conocer tus necesidades, resolver dudas y diseñar la propuesta ideal de forma cercana y clara.',
+            img: makePlaceholderSvg('AGENDAR CITA', '#00e5ff')
           }
         ]
       },
       infinito: {
-        title: 'Ecosistema de Marca',
-        subtitle: 'REESTRUCTURACIÓN HOLÍSTICA TOTAL',
+        title: 'Santuario comercial',
+        subtitle: 'EVOLUCIÓN DIGITAL, IMAGEN Y SERVICIO ADMINISTRADO',
         color: '#ff007f',
         freq: 852,
-        desc: 'Evolución 360°: Fusionamos el taller físico, la app web y la narrativa de marca en un solo proyecto de transformación.',
+        desc: 'Este santuariio está pensado para empresas y comercios que quieren un cambio radical en su imagen, identidad y atmósfera. Aquí vamos directo a la transformación total: espacio, presencia, marca y experiencia.',
         subnodes: [
           {
-            tag: 'PAQUETE DE EVOLUCIÓN COMPLETA',
-            title: 'Kit de Transformación Total',
-            desc: 'Replanteamiento total de marca: Identidad visual + Plataforma digital viva + Presencia textil + Estrategia IA.',
-            img: makePlaceholderSvg('TRANSFORMACIÓN 360°', '#ff007f')
+            tag: 'SERVICIO ADMINISTRADO',
+            title: 'Cambio radical en identidad y entorno',
+            desc: 'No solo renovamos la estética; fortalecemos la confianza, la seguridad y la percepción de tu negocio para generar más ventas y posicionamiento.',
+            img: makePlaceholderSvg('CAMBIO RADICAL', '#ff007f')
+          },
+          {
+            tag: 'PRESENCIA DIGITAL',
+            title: 'Web o app para más control y alcance',
+            desc: 'Con una página web o aplicación, tu negocio gana presencia digital, mejores herramientas de contacto y un control más sólido sobre su imagen, servicios y clientes.',
+            img: makePlaceholderSvg('WEB & APP', '#ff007f')
           }
         ]
       }
@@ -745,7 +750,6 @@
       document.querySelectorAll('.node-label').forEach(lbl => lbl.style.opacity = '1');
     }
 
-    // ESCENA THREE.JS
     const canvas = document.getElementById('webgl-canvas');
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.1, 1000);
